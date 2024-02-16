@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
       toggleIconImg.setAttribute(
         "src",
         answer.classList.contains("show")
-          ? "images/icon-minus.svg"
-          : "images/icon-plus.svg"
+          ? "/images/icon-minus.svg"
+          : "/images/icon-plus.svg"
       );
     });
     toggleIcon.addEventListener("click", (event) => {
