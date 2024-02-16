@@ -10,8 +10,8 @@ document.addEventListener("DOMContentLoaded", () => {
       toggleIconImg.setAttribute(
         "src",
         answer.classList.contains("show")
-          ? "/images/icon-minus.svg"
-          : "/images/icon-plus.svg"
+          ? "assets/images/icon-minus.svg"
+          : "assets/images/icon-plus.svg"
       );
     });
     toggleIcon.addEventListener("click", (event) => {
@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded", () => {
       toggleIconImg.setAttribute(
         "src",
         answer.classList.contains("show")
-          ? "images/icon-minus.svg"
-          : "images/icon-plus.svg"
+          ? "assets/images/icon-minus.svg"
+          : "assets/images/icon-plus.svg"
       );
     });
   });
